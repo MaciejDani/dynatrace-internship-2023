@@ -45,7 +45,7 @@ class ExchangeRateControllerTest {
     }
 
     @Test
-    void getMaxAndMinAverageValueCurrencyGBPThenBadRequest(){
+    void getMaxAndMinAverageValueCurrencyGBPThenOK(){
         String currencyCode = "GBP";
         int numberOfQuotations = 2;
 

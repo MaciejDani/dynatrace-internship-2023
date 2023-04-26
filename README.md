@@ -32,12 +32,12 @@ To deploy this project run in main directory
 curl localhost:8080/exchanges/GBP/2023-01-02
 ```
 
-2. To query operation 2, run this command (which should have {"max" : 5.3369, "min" : 5.2086} as the returning information):
+2. To query operation 2, run this command (which should have the maximum and minimum average value for the given number of the latest quotations as the returning information):
 ```javascript
 curl localhost:8080/exchanges/GBP/last/10
 ```
 
-3. To query operation 3, run this command (which should have the value 0.10679999999999978 as the returning information):
+3. To query operation 3, run this command (which should have the major difference between the buy and ask rate for the given number of the latest quotations as the returning information):
 ```javascript
 curl localhost:8080/exchanges/GBP/last/10/difference
 ```
